@@ -19,7 +19,7 @@
     ?>
 
     <p>
-        Hoje e <?=$data?>. Meu nome e <?=$nome?>, tenho <?=$idade?> e mora na cidade de <?=$cidade?>.
+        Hoje e <?=$data?>. Meu nome e <?=$nome?>, tenho <?=$idade?> e moro na cidade de <?=$cidade?>.
     </p>
 </body>
 </html>
