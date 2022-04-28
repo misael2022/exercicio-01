@@ -26,7 +26,20 @@
         } else {
             echo "Seu salario e de $salarios R$, portanto ele tera um aumento de 5%, resultando em $salarios3";
         }
-        
     ?>
+
+    <!-- ******************************* CORREÇÃO ********************************************* -->
+
+    <?php
+        $salario = 800;
+        
+        // Obs.: declarar esta varivel inicialmente e algo opcional
+        $novoSalario = 0;
+
+        if ($salario < 500) {
+            $novoSalario = $salario * 1.15;
+        }
+    ?>
+
 </body>
 </html>
